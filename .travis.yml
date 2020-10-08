@@ -12,6 +12,7 @@ os:
 
 script:
   - travis_retry npm run test-only
+  - not grep -R --exclude-dir=fixtures \\.only ./tests
 
 jobs:
   include:

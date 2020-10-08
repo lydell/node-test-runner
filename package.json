@@ -64,5 +64,8 @@
     "shelljs": "0.8.4",
     "strip-ansi": "6.0.0",
     "xml2js": "0.4.23"
+  },
+  "mocha": {
+    "timeout": 12000
   }
 }
